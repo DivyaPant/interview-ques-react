@@ -1,0 +1,23 @@
+.main-container {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.each-star img {
+        width: 20px;
+        height: 20px;
+}
+  
+  input[type="radio"] {
+    display: none;
+  }
+  .star {
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 5px;
+  }
